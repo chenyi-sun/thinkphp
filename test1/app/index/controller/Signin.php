@@ -12,9 +12,9 @@ class Signin extends Controller
             'email'=> '1878009s@qq.com',
             'name' => 'askddd name'
         ],[
-            'STATIC' => '<h1>ddddd</h1>'
-        ]
-        );
+            'STATIC' => '<h1 onclick="alert(\'ddd\')">ddddd</h1>',
+            'TT' => '<h2>dddddddyy</h2>'
+        ]);
     }
     public function ask(){
         $this -> assign('ass','ddddddd');
