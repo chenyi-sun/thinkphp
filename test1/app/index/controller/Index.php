@@ -5,11 +5,10 @@ class Index extends User
 {
     public function index()
     {
-        //$ss = new base();
-       return $this->ask();
-        //  dump(config());
+       return view();
     }
     public function hello($name="ddddd"){
         return 'Hello!'.$name;
     }
+
 }

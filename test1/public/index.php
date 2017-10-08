@@ -18,35 +18,3 @@ require __DIR__ . '/../thinkphp/start.php';
 
 ?>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <!--<link rel="stylesheet" href="./index.bundle.css"/>-->
-</head>
-<body>
-    <?php 
-
-    ?>
-    <form action="http://www.testth.com/public/index.php/Index/index/hello">
-    <!--
-        index.php
-        /Index/ 模块
-        /index/ 控制器
-        /hello  操作
-    -->
-        <input type="text" value="ssss" name="name"/>
-        <input type="submit" value="提交"/>
-    </form>
-    <form action="http://www.testth.com/public/index.php/Index/index/index">
-        <input type="text" value="ssss" name="name"/>
-        <input type="submit" value="提交"/>
-
-        
-    </form>
-
-</body>
-</html>
