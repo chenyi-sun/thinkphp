@@ -10,5 +10,4 @@ class Index extends User
     public function hello($name="ddddd"){
         return 'Hello!'.$name;
     }
-
 }
