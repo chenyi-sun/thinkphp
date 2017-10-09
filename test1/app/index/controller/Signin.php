@@ -23,9 +23,28 @@ class Signin extends Controller
             'ddd' => 'ddsd'
         ]);
     }
-    public function test1(){
+    public function test1(Request $request){
         $this -> assign('assign', 'dddddd水水水水');
-        $this -> display('index');
+        var_dump($request->domain());
+        var_dump($request->method());
+        var_dump($request->isPost());
+        var_dump($request->isGet());
+        var_dump($request->isAjax());
+        // var_dump($request->param()['di']);
+        var_dump($request->param());
+        var_dump($request->session());
+        return view('public/index');
+    }
+    public function session1(Request $request){
+        var_dump($request->session());
+        var_dump($request->action());
+        $num = $request -> action();
+        $num == 'session1'?$this->assign('as','dddddss'):$this->assign('as','ddd');
+        cookie('sss','ddd');
+        if($request->param()['as']){
+           $this->assign('as','存在'); 
+        }
+        return view('public/index');
     }
 }
 
