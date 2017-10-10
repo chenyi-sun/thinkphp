@@ -11,6 +11,13 @@ return [
     'view_replace_str'       => [
         '__123__' => '2222222'
     ],
+    //连接数据库的方法
+    'DB_TYPE' => 'mysql',
+    'DB_HOST' => '127.0.0.1',
+    'DB_NAME' => 'thinkphp',
+    'DB_USER' => 'root',
+    'DB_PWD'  => '',
+    'DB_PORT' => '3306'
 ]
 
 ?>

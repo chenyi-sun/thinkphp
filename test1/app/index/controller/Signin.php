@@ -41,8 +41,8 @@ class Signin extends Controller
         $num = $request -> action();
         $num == 'session1'?$this->assign('as','dddddss'):$this->assign('as','ddd');
         cookie('sss','ddd');
-        if($request->param()['as']){
-           $this->assign('as','存在'); 
+        if($request->param()['id']){
+           $this->assign('as',$request->param()['id']); 
         }
         return view('public/index');
     }
