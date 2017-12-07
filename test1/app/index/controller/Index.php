@@ -13,4 +13,10 @@ class Index extends User
         dump($res);
         return 'Hello!'.$name;
     }
+    public function ass(){
+        dump(config());
+    }
+    public function ddd(){
+        return $this->ask();
+    }
 }
