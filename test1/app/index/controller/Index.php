@@ -2,6 +2,7 @@
 namespace app\index\controller;
 use app\common\controller\Index as User;
 use think\Db;
+
 class Index extends User
 {
     public function index()
