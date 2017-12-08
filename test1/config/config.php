@@ -1,5 +1,5 @@
 <?php
 return [
-    'ddd'=>'ssss',
+    'app_status'=>'home',
     'dddsss'=>'ssss'
 ];

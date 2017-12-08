@@ -6,7 +6,8 @@ class Index extends User
 {
     public function index()
     {
-       return view();
+        dump(config());
+    //    return view();
     }
     public function databse($name="ddddd"){
         $res = Db::connect();
