@@ -1,0 +1,29 @@
+---------------------------------------------------------------
+[ 2017-10-12T14:37:57+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.test1.com/ [运行时间：0.540031s][吞吐率：1.85req/s] [内存消耗：3,150.90kb] [文件加载：47]
+[ info ] [ LANG ] C:\Users\ZTX\Documents\GitHub\thinkphp\test1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.test1.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\Users\ZTX\Documents\GitHub\thinkphp\test1\app\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\ZTX\Documents\GitHub\thinkphp\test1\public/../app/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,1703 @@
+---------------------------------------------------------------
+[ 2017-06-20T15:29:11+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.369021s][吞吐率：2.71req/s] [内存消耗：2,437.59kb] [文件加载：38]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-06-20T15:31:27+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/Index/index/hello?name=ssss
+[ info ] www.testth.com/public/index.php/Index/index/hello?name=ssss [运行时间：0.134008s][吞吐率：7.46req/s] [内存消耗：2,438.32kb] [文件加载：38]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'ssss',
+)
+[ info ] [ RUN ] app\index\controller\Index->hello[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-06-20T15:31:30+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/Index/index/hello?name=dddddd
+[ info ] www.testth.com/public/index.php/Index/index/hello?name=dddddd [运行时间：0.057004s][吞吐率：17.54req/s] [内存消耗：2,438.67kb] [文件加载：38]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/public/index.php/Index/index/hello?name=ssss',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'dddddd',
+)
+[ info ] [ RUN ] app\index\controller\Index->hello[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-06-20T15:31:33+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/Index/index/index?name=sssssssss
+[ info ] www.testth.com/public/index.php/Index/index/index?name=sssssssss [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：2,438.56kb] [文件加载：38]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/public/index.php/Index/index/hello?name=dddddd',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'sssssssss',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-06-20T15:31:38+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/Index/index/index?name=dddddd
+[ info ] www.testth.com/public/index.php/Index/index/index?name=dddddd [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：2,438.45kb] [文件加载：38]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/public/index.php/Index/index/index?name=sssssssss',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'dddddd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-06-20T15:31:39+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/Index/index/index?name=ssss
+[ info ] www.testth.com/public/index.php/Index/index/index?name=ssss [运行时间：0.068004s][吞吐率：14.71req/s] [内存消耗：2,438.43kb] [文件加载：38]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/public/index.php/Index/index/index?name=dddddd',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'ssss',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-06-20T15:31:39+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/Index/index/index?name=ssss
+[ info ] www.testth.com/public/index.php/Index/index/index?name=ssss [运行时间：0.062004s][吞吐率：16.13req/s] [内存消耗：2,438.43kb] [文件加载：38]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/public/index.php/Index/index/index?name=ssss',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'ssss',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-06-20T15:31:39+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/Index/index/index?name=ssss
+[ info ] www.testth.com/public/index.php/Index/index/index?name=ssss [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：2,438.43kb] [文件加载：38]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/public/index.php/Index/index/index?name=ssss',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'ssss',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-06-20T15:31:43+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/Index/index/index?name=ssssffffffffffff
+[ info ] www.testth.com/public/index.php/Index/index/index?name=ssssffffffffffff [运行时间：0.061004s][吞吐率：16.39req/s] [内存消耗：2,438.32kb] [文件加载：38]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/public/index.php/Index/index/index?name=ssss',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'ssssffffffffffff',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-06-20T15:31:49+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：2,437.60kb] [文件加载：38]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-06-20T15:31:52+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/Index/index/index?name=ssssssdddd
+[ info ] www.testth.com/public/index.php/Index/index/index?name=ssssssdddd [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：2,438.11kb] [文件加载：38]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'ssssssdddd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-06-20T15:31:55+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/Index/index/hello?name=sssssssddd
+[ info ] www.testth.com/public/index.php/Index/index/hello?name=sssssssddd [运行时间：0.069004s][吞吐率：14.49req/s] [内存消耗：2,438.34kb] [文件加载：38]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/public/index.php/Index/index/index?name=ssssssdddd',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'sssssssddd',
+)
+[ info ] [ RUN ] app\index\controller\Index->hello[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-06-20T15:32:01+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/Index/index/index?name=sssssssss
+[ info ] www.testth.com/public/index.php/Index/index/index?name=sssssssss [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：2,438.20kb] [文件加载：38]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/public/index.php/Index/index/hello?name=sssssssddd',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'sssssssss',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-06-20T17:44:00+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/Index/index/index?name=sssssssss
+[ info ] www.testth.com/public/index.php/Index/index/index?name=sssssssss [运行时间：0.206011s][吞吐率：4.85req/s] [内存消耗：2,539.83kb] [文件加载：42]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/public/index.php/Index/index/hello?name=sssssssddd',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'sssssssss',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Undefined constant 'app\index\controller\ss\Foo'[F:\testth\application\index\controller\Index.php:10]
+---------------------------------------------------------------
+[ 2017-06-20T17:46:01+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/Index/index/index?name=sssssssss
+[ info ] www.testth.com/public/index.php/Index/index/index?name=sssssssss [运行时间：0.062003s][吞吐率：16.13req/s] [内存消耗：2,534.55kb] [文件加载：43]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/public/index.php/Index/index/hello?name=sssssssddd',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'sssssssss',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2048]Non-static method app\ss\controller\Ss::index() should not be called statically, assuming $this from incompatible context[F:\testth\application\index\controller\Index.php:10]
+---------------------------------------------------------------
+[ 2017-06-20T17:46:34+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/Index/index/index?name=sssssssss
+[ info ] www.testth.com/public/index.php/Index/index/index?name=sssssssss [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：2,539.77kb] [文件加载：42]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/public/index.php/Index/index/hello?name=sssssssddd',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'sssssssss',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Undefined constant 'app\ss\controller\Sf'[F:\testth\application\index\controller\Index.php:10]
+---------------------------------------------------------------
+[ 2017-06-20T17:46:46+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/Index/index/index?name=sssssssss
+[ info ] www.testth.com/public/index.php/Index/index/index?name=sssssssss [运行时间：0.071004s][吞吐率：14.08req/s] [内存消耗：2,539.80kb] [文件加载：42]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/public/index.php/Index/index/hello?name=sssssssddd',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'sssssssss',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Undefined constant 'app\index\controller\controller\Sf'[F:\testth\application\index\controller\Index.php:10]
+---------------------------------------------------------------
+[ 2017-06-20T18:00:41+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/Index/index/index?name=sssssssss
+[ info ] www.testth.com/public/index.php/Index/index/index?name=sssssssss [运行时间：0.087005s][吞吐率：11.49req/s] [内存消耗：2,544.21kb] [文件加载：41]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/public/index.php/Index/index/hello?name=sssssssddd',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'sssssssss',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'class' (T_CLASS), expecting ',' or ';'[F:\testth\application\index\controller\Index.php:5]
+---------------------------------------------------------------
+[ 2017-06-20T18:00:48+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：2,543.16kb] [文件加载：41]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'class' (T_CLASS), expecting ',' or ';'[F:\testth\application\index\controller\Index.php:5]
+---------------------------------------------------------------
+[ 2017-06-20T18:01:35+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：2,543.28kb] [文件加载：41]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'class' (T_CLASS), expecting ',' or ';'[F:\testth\application\index\controller\Index.php:5]
+---------------------------------------------------------------
+[ 2017-06-20T18:02:35+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.043002s][吞吐率：23.25req/s] [内存消耗：2,543.28kb] [文件加载：41]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'class' (T_CLASS), expecting ',' or ';'[F:\testth\application\index\controller\Index.php:5]
+---------------------------------------------------------------
+[ 2017-06-20T18:02:42+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：2,543.19kb] [文件加载：41]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'class' (T_CLASS), expecting ',' or ';'[F:\testth\application\index\controller\Index.php:5]
+---------------------------------------------------------------
+[ 2017-06-20T18:02:44+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：2,543.19kb] [文件加载：41]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'class' (T_CLASS), expecting ',' or ';'[F:\testth\application\index\controller\Index.php:5]
+---------------------------------------------------------------
+[ 2017-06-20T18:02:44+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.040003s][吞吐率：25.00req/s] [内存消耗：2,543.19kb] [文件加载：41]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'class' (T_CLASS), expecting ',' or ';'[F:\testth\application\index\controller\Index.php:5]
+---------------------------------------------------------------
+[ 2017-06-20T18:02:51+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：2,437.66kb] [文件加载：38]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-06-20T18:03:09+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.050002s][吞吐率：20.00req/s] [内存消耗：2,548.70kb] [文件加载：41]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'as' (T_AS)[F:\testth\application\index\controller\Index.php:9]
+---------------------------------------------------------------
+[ 2017-06-20T18:03:21+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.044002s][吞吐率：22.73req/s] [内存消耗：2,548.70kb] [文件加载：41]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'as' (T_AS)[F:\testth\application\index\controller\Index.php:9]
+---------------------------------------------------------------
+[ 2017-06-20T18:03:41+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.059003s][吞吐率：16.95req/s] [内存消耗：2,548.70kb] [文件加载：41]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'as' (T_AS)[F:\testth\application\index\controller\Index.php:9]
+---------------------------------------------------------------
+[ 2017-06-20T18:05:37+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.047002s][吞吐率：21.28req/s] [内存消耗：2,548.70kb] [文件加载：41]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'as' (T_AS)[F:\testth\application\index\controller\Index.php:9]
+---------------------------------------------------------------
+[ 2017-06-20T18:05:45+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.066004s][吞吐率：15.15req/s] [内存消耗：2,548.70kb] [文件加载：41]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'as' (T_AS)[F:\testth\application\index\controller\Index.php:9]
+---------------------------------------------------------------
+[ 2017-06-20T18:05:52+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：2,530.57kb] [文件加载：42]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant base - assumed 'base'[F:\testth\application\index\controller\Index.php:9]
+---------------------------------------------------------------
+[ 2017-06-20T18:07:16+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.039003s][吞吐率：25.64req/s] [内存消耗：2,539.38kb] [文件加载：42]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\controller\base' not found[F:\testth\application\index\controller\Index.php:9]
+---------------------------------------------------------------
+[ 2017-06-20T18:07:16+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.043003s][吞吐率：23.25req/s] [内存消耗：2,539.38kb] [文件加载：42]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\controller\base' not found[F:\testth\application\index\controller\Index.php:9]
+---------------------------------------------------------------
+[ 2017-06-20T18:07:16+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：2,539.38kb] [文件加载：42]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\controller\base' not found[F:\testth\application\index\controller\Index.php:9]
+---------------------------------------------------------------
+[ 2017-06-20T18:08:37+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.057003s][吞吐率：17.54req/s] [内存消耗：2,539.35kb] [文件加载：42]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\controller\base' not found[F:\testth\application\index\controller\Index.php:9]
+---------------------------------------------------------------
+[ 2017-06-20T18:10:59+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.042003s][吞吐率：23.81req/s] [内存消耗：2,543.98kb] [文件加载：41]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '{', expecting identifier (T_STRING) or namespace (T_NAMESPACE) or \\ (T_NS_SEPARATOR)[F:\testth\application\index\controller\Index.php:6]
+---------------------------------------------------------------
+[ 2017-06-20T18:11:21+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：2,539.84kb] [文件加载：42]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\controller\base' not found[F:\testth\application\index\controller\Index.php:9]
+---------------------------------------------------------------
+[ 2017-06-20T18:12:16+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：2,539.84kb] [文件加载：42]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\controller\base' not found[F:\testth\application\index\controller\Index.php:9]
+---------------------------------------------------------------
+[ 2017-06-20T18:12:48+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：2,539.84kb] [文件加载：42]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\controller\base' not found[F:\testth\application\index\controller\Index.php:9]
+---------------------------------------------------------------
+[ 2017-06-20T18:14:07+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.047002s][吞吐率：21.28req/s] [内存消耗：2,540.27kb] [文件加载：42]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2050.400 QQBrowser/9.5.10218.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=5224194048',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\controller\base' not found[F:\testth\application\index\controller\Index.php:9]
+---------------------------------------------------------------
+[ 2017-06-20T18:15:00+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.043003s][吞吐率：23.25req/s] [内存消耗：2,438.42kb] [文件加载：38]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2050.400 QQBrowser/9.5.10218.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=5224194048',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-06-20T18:16:38+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：2,540.46kb] [文件加载：42]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2050.400 QQBrowser/9.5.10218.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=5224194048',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\controller\base' not found[F:\testth\application\index\controller\Index.php:9]
+---------------------------------------------------------------
+[ 2017-06-20T18:16:43+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：2,540.73kb] [文件加载：42]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2050.400 QQBrowser/9.5.10218.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=5224194048',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\controller\base' not found[F:\testth\application\index\controller\Index.php:9]
+---------------------------------------------------------------
+[ 2017-06-20T18:16:49+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：2,540.18kb] [文件加载：42]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2050.400 QQBrowser/9.5.10218.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=5224194048',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\controller\base' not found[F:\testth\application\index\controller\Index.php:9]
+---------------------------------------------------------------
+[ 2017-06-20T18:16:53+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：2,438.42kb] [文件加载：38]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2050.400 QQBrowser/9.5.10218.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=5224194048',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-06-20T18:16:57+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：2,438.42kb] [文件加载：38]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2050.400 QQBrowser/9.5.10218.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=5224194048',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-06-20T18:17:54+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.057004s][吞吐率：17.54req/s] [内存消耗：2,540.61kb] [文件加载：42]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2050.400 QQBrowser/9.5.10218.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=5224194048',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\controller\base' not found[F:\testth\application\index\controller\Index.php:9]
+---------------------------------------------------------------
+[ 2017-06-20T18:18:12+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.059003s][吞吐率：16.95req/s] [内存消耗：2,540.30kb] [文件加载：42]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2050.400 QQBrowser/9.5.10218.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=5224194048',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\controller\base' not found[F:\testth\application\index\controller\Index.php:9]
+---------------------------------------------------------------
+[ 2017-06-20T18:18:36+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：2,540.07kb] [文件加载：42]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2050.400 QQBrowser/9.5.10218.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=5224194048',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\controller\base' not found[F:\testth\application\index\controller\Index.php:10]
+---------------------------------------------------------------
+[ 2017-06-20T18:19:51+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.057004s][吞吐率：17.54req/s] [内存消耗：2,539.89kb] [文件加载：42]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2050.400 QQBrowser/9.5.10218.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=5224194048',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'controller\base' not found[F:\testth\application\index\controller\Index.php:10]
+---------------------------------------------------------------
+[ 2017-06-20T18:19:54+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.058003s][吞吐率：17.24req/s] [内存消耗：2,540.19kb] [文件加载：42]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2050.400 QQBrowser/9.5.10218.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=5224194048',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\controller\base' not found[F:\testth\application\index\controller\Index.php:10]
+---------------------------------------------------------------
+[ 2017-06-20T18:28:22+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：2,539.80kb] [文件加载：42]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2050.400 QQBrowser/9.5.10218.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=5224194048',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'base' not found[F:\testth\application\index\controller\Index.php:10]
+---------------------------------------------------------------
+[ 2017-06-20T18:29:24+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：2,539.80kb] [文件加载：42]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2050.400 QQBrowser/9.5.10218.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=5224194048',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'base' not found[F:\testth\application\index\controller\Index.php:10]
+---------------------------------------------------------------
+[ 2017-06-20T18:29:26+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：2,539.80kb] [文件加载：42]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2050.400 QQBrowser/9.5.10218.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=5224194048',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'base' not found[F:\testth\application\index\controller\Index.php:10]
+---------------------------------------------------------------
+[ 2017-06-20T18:29:26+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.046003s][吞吐率：21.74req/s] [内存消耗：2,540.13kb] [文件加载：42]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2050.400 QQBrowser/9.5.10218.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=5224194048',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'base' not found[F:\testth\application\index\controller\Index.php:10]
+---------------------------------------------------------------
+[ 2017-06-20T18:29:26+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：2,539.80kb] [文件加载：42]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2050.400 QQBrowser/9.5.10218.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=5224194048',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'base' not found[F:\testth\application\index\controller\Index.php:10]
+---------------------------------------------------------------
+[ 2017-06-20T18:29:37+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：2,539.80kb] [文件加载：42]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2050.400 QQBrowser/9.5.10218.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=5224194048',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'base' not found[F:\testth\application\index\controller\Index.php:10]
+---------------------------------------------------------------
+[ 2017-06-20T18:29:38+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：2,539.80kb] [文件加载：42]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2050.400 QQBrowser/9.5.10218.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.testth.com/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=5224194048',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'base' not found[F:\testth\application\index\controller\Index.php:10]
+---------------------------------------------------------------
+[ 2017-06-20T18:30:19+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.testth.com/public/ [运行时间：0.043003s][吞吐率：23.25req/s] [内存消耗：2,538.70kb] [文件加载：42]
+[ info ] [ LANG ] F:\testth\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.testth.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\testth\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'base' not found[F:\testth\application\index\controller\Index.php:10]
